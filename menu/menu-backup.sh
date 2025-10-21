@@ -24,7 +24,7 @@ echo "4).LIMIT SPEED"
 echo "5).AUTO BACKUP"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "${BlueCyan}"
-read -p    "Pilih Nomor └╼>>> " bro
+read -p    "Pilih Nomor └╼>>> " 
 
 if [ $bro = 1 ] || [ $bro = 1 ]
 then
@@ -32,7 +32,7 @@ figlet "backup" | lolcat
 backup
 echo "--------------------------------------------------------"
 echo
-echo "Terimakasih sudah menggunakan layanan Autoscript RZ VPNSTORE"
+echo "Terimakasih sudah menggunakan layanan Autoscript Yhdsvpn"
 echo
 echo "--------------------------------------------------------"
 fi
@@ -43,7 +43,7 @@ figlet "Restore" | lolcat
 restore
 echo "--------------------------------------------------------"
 echo
-echo "Terimakasih sudah menggunakan layanan Autoscript RZ VPNSTORE"
+echo "Terimakasih sudah menggunakan layanan Autoscript Yhdsvpn"
 echo
 echo "--------------------------------------------------------"
 fi
@@ -53,7 +53,7 @@ figlet "strt"
 strt
 echo "--------------------------------------------------------"
 echo
-echo "Terimakasih sudah menggunakan layanan Autoscript RZ VPNSTORE"
+echo "Terimakasih sudah menggunakan layanan Autoscript Yhdsvpn"
 echo
 echo "--------------------------------------------------------"
 fi
@@ -62,7 +62,7 @@ then
 limitspeed
 echo "--------------------------------------------------------"
 echo
-echo "Terimakasih sudah menggunakan layanan Autoscript RZ VPNSTORE"
+echo "Terimakasih sudah menggunakan layanan Autoscript Yhdsvpn"
 echo
 echo "--------------------------------------------------------"
 fi
@@ -72,7 +72,7 @@ then
 autobackup
 echo "--------------------------------------------------------"
 echo
-echo "Terimakasih sudah menggunakan layanan Autoscript RZ VPNSTORE"
+echo "Terimakasih sudah menggunakan layanan Autoscript Yhdsvpn"
 echo
 echo "--------------------------------------------------------"
 fi
